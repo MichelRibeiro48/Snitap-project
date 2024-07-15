@@ -136,9 +136,10 @@ section.hero{
             right: 0;
             z-index: 0;
             bottom: 35%;
+            opacity: 0;
 
-            transform: translateX(400%);
-            animation: slideIn 2.2s 800ms ease both;
+            transform: translateX(100%);
+            animation: slideIn 2s 800ms ease both, appear 100ms 800ms both;
         }
     }
     @media (width < 80rem) {
